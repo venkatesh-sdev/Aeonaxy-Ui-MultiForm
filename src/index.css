@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*::-webkit-scrollbar {
+    display: none;
+}
+
 * {
     font-family: "DM Sans", sans-serif;
 }
